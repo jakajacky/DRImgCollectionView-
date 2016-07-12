@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2012CDD1D334410001E4123 /* currentDotImg.png in Resources */ = {isa = PBXBuildFile; fileRef = F2012CDB1D334410001E4123 /* currentDotImg.png */; };
+		F2012CDE1D334410001E4123 /* normalDotImg.png in Resources */ = {isa = PBXBuildFile; fileRef = F2012CDC1D334410001E4123 /* normalDotImg.png */; };
 		F2AA914D1D2CA2E200E57253 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AA914C1D2CA2E100E57253 /* AppDelegate.swift */; };
 		F2AA914F1D2CA2E200E57253 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AA914E1D2CA2E200E57253 /* ViewController.swift */; };
 		F2AA91521D2CA2E200E57253 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2AA91501D2CA2E200E57253 /* Main.storyboard */; };
 		F2AA91541D2CA2E200E57253 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2AA91531D2CA2E200E57253 /* Assets.xcassets */; };
 		F2AA91571D2CA2E200E57253 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2AA91551D2CA2E200E57253 /* LaunchScreen.storyboard */; };
+		F2AA91641D2CA5FF00E57253 /* DRImgCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AA91631D2CA5FF00E57253 /* DRImgCollectionView.swift */; };
+		F2AA91691D2CA70600E57253 /* image0.png in Resources */ = {isa = PBXBuildFile; fileRef = F2AA91651D2CA70500E57253 /* image0.png */; };
+		F2AA916A1D2CA70600E57253 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = F2AA91661D2CA70600E57253 /* image1.png */; };
+		F2AA916B1D2CA70600E57253 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = F2AA91671D2CA70600E57253 /* image2.png */; };
+		F2AA916C1D2CA70600E57253 /* image3.png in Resources */ = {isa = PBXBuildFile; fileRef = F2AA91681D2CA70600E57253 /* image3.png */; };
+		F2AA91A71D2F952D00E57253 /* DRPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AA91A61D2F952D00E57253 /* DRPageControl.swift */; };
+		F2AA91A91D2FA4DD00E57253 /* DRImgCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AA91A81D2FA4DD00E57253 /* DRImgCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F2012CDB1D334410001E4123 /* currentDotImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = currentDotImg.png; sourceTree = "<group>"; };
+		F2012CDC1D334410001E4123 /* normalDotImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normalDotImg.png; sourceTree = "<group>"; };
 		F2AA91491D2CA2E100E57253 /* DRImgCollectionView_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DRImgCollectionView_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2AA914C1D2CA2E100E57253 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2AA914E1D2CA2E200E57253 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,13 @@
 		F2AA91531D2CA2E200E57253 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2AA91561D2CA2E200E57253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2AA91581D2CA2E200E57253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2AA91631D2CA5FF00E57253 /* DRImgCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRImgCollectionView.swift; sourceTree = "<group>"; };
+		F2AA91651D2CA70500E57253 /* image0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image0.png; sourceTree = "<group>"; };
+		F2AA91661D2CA70600E57253 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		F2AA91671D2CA70600E57253 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
+		F2AA91681D2CA70600E57253 /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image3.png; sourceTree = "<group>"; };
+		F2AA91A61D2F952D00E57253 /* DRPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRPageControl.swift; sourceTree = "<group>"; };
+		F2AA91A81D2FA4DD00E57253 /* DRImgCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRImgCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +74,37 @@
 			children = (
 				F2AA914C1D2CA2E100E57253 /* AppDelegate.swift */,
 				F2AA914E1D2CA2E200E57253 /* ViewController.swift */,
+				F2AA915E1D2CA48800E57253 /* DRImgCollectionView */,
 				F2AA91501D2CA2E200E57253 /* Main.storyboard */,
 				F2AA91531D2CA2E200E57253 /* Assets.xcassets */,
 				F2AA91551D2CA2E200E57253 /* LaunchScreen.storyboard */,
 				F2AA91581D2CA2E200E57253 /* Info.plist */,
+				F2012CDB1D334410001E4123 /* currentDotImg.png */,
+				F2012CDC1D334410001E4123 /* normalDotImg.png */,
+				F2AA91651D2CA70500E57253 /* image0.png */,
+				F2AA91661D2CA70600E57253 /* image1.png */,
+				F2AA91671D2CA70600E57253 /* image2.png */,
+				F2AA91681D2CA70600E57253 /* image3.png */,
 			);
 			path = DRImgCollectionView_Swift;
+			sourceTree = "<group>";
+		};
+		F2AA915E1D2CA48800E57253 /* DRImgCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				F2AA91631D2CA5FF00E57253 /* DRImgCollectionView.swift */,
+				F2AA91A81D2FA4DD00E57253 /* DRImgCollectionViewCell.swift */,
+				F2AA91A51D2F952D00E57253 /* DRPageControl */,
+			);
+			path = DRImgCollectionView;
+			sourceTree = "<group>";
+		};
+		F2AA91A51D2F952D00E57253 /* DRPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				F2AA91A61D2F952D00E57253 /* DRPageControl.swift */,
+			);
+			path = DRPageControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +165,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2AA91691D2CA70600E57253 /* image0.png in Resources */,
+				F2AA916A1D2CA70600E57253 /* image1.png in Resources */,
+				F2AA916B1D2CA70600E57253 /* image2.png in Resources */,
+				F2012CDD1D334410001E4123 /* currentDotImg.png in Resources */,
 				F2AA91571D2CA2E200E57253 /* LaunchScreen.storyboard in Resources */,
 				F2AA91541D2CA2E200E57253 /* Assets.xcassets in Resources */,
+				F2AA916C1D2CA70600E57253 /* image3.png in Resources */,
+				F2012CDE1D334410001E4123 /* normalDotImg.png in Resources */,
 				F2AA91521D2CA2E200E57253 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +185,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2AA914F1D2CA2E200E57253 /* ViewController.swift in Sources */,
+				F2AA91A91D2FA4DD00E57253 /* DRImgCollectionViewCell.swift in Sources */,
+				F2AA91641D2CA5FF00E57253 /* DRImgCollectionView.swift in Sources */,
+				F2AA91A71D2F952D00E57253 /* DRPageControl.swift in Sources */,
 				F2AA914D1D2CA2E200E57253 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,7 +305,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DRImgCollectionView_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ideabinder.DRImgCollectionView-Swift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ideabinder.DRImgScrollerView1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -264,7 +316,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DRImgCollectionView_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ideabinder.DRImgCollectionView-Swift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ideabinder.DRImgScrollerView1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -288,6 +340,7 @@
 				F2AA915D1D2CA2E200E57253 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
